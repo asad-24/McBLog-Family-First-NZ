@@ -1,0 +1,138 @@
+body{
+    background-color:#F5F5F5;
+}
+#header{
+    height: 20vh;
+}
+#header .navbar{
+    background-color: white;
+}
+.img-header{
+    width: 10%;
+}
+.header2{
+    height: 10vh ;
+}
+
+.nav-link{
+    font-weight: 600;
+}
+.mcblog{
+    width: 100%; height: 25vh; background-color: #eee;
+}
+.mcblog h4{
+    color: #75bdbb;
+}
+.card-body h6{
+    font-family: 'Poppins',sans-serif; color: #75bdbb;
+}
+.card-body embed{
+    width: 100%;
+}
+.card-title{
+    font-family: 'Poppins',sans-serif;
+    font-size: 27px;
+}
+form{
+    height: 20vh;
+     background-color: white; 
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    
+}
+form .search-border{
+    height: 9vh;
+    border: 1px solid gainsboro;
+    display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.recentPost-text{
+    background-color: white;
+    
+}
+.recenr-post ul li{
+list-style: none;
+color: black;
+
+}
+.recenr-post ul {
+line-height: 2;
+
+}
+.recenr-post ul li a{
+text-decoration: none;
+color: #8ed1fc;
+
+} 
+.recenr-post ul li :hover {
+text-decoration: none;
+color: rgb(57, 54, 54);
+
+} 
+.page-count ul li{
+list-style: none;
+
+}
+.page-count ul {
+display: flex;
+}
+.linkEnd  li{
+list-style: none;
+}
+.linkEnd  li a{
+text-decoration: none;
+color:white;
+}
+.linkEnd  {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 15vh;
+padding-top: 10px;
+}
+.col-icon{
+    display: flex; justify-content: center;flex-direction: column;
+}
+.col-icon .icons .btn{
+    border: transparent; border-radius: 50%;
+}
+.col-icon .icons .btn .fa1{
+ 
+    color: #2662c9;
+}
+.col-icon .icons .btn .fa2{
+ 
+    color: #f70c0c;
+}
+.col-icon .icons .btn .fa3{
+ 
+    color: #e87211;
+}
+.col-icon ,input .input-box{
+    height: 6vh; width: 100%;
+}
+.col-icon ,input .search-icon{
+    border: transparent;  height: 6vh;width: 4vw;
+}
+
+.arrow-up {
+    background-color: #152d3d;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 15px;
+        right: 5px;
+        opacity: 0;
+        transition: all .3.5s ;
+}
+.bi-caret-up{
+    color: #eee;
+}
+.to-top{
+    opacity: 1;
+}
